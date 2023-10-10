@@ -124,7 +124,7 @@
   color: #828282;
   line-height: 1.7;
   font-weight: 400;
-  width:440px;
+  max-width:440px;
 }
 .landing .container .text .btn{
   background-color: #f76840;
@@ -367,8 +367,6 @@
 .team .container .box:hover svg{
   fill: white;
 }
-
-
 .collection{
   margin-top: 150px;
 }
@@ -389,13 +387,14 @@
     margin-left: 0px;
   }
 }
-
 @media (max-width: 720px) {
   .collection .d-flex{
     flex-direction: column;
   }
 }
-
+.collection .container .card .box img{
+  border-radius: 10px;
+}
 .collection .container .cards{
   transition: .3s;
 }
@@ -501,7 +500,7 @@
   font-size: 20px;
   color: rgb(255, 255, 255);
   display: block;
-  width: 500px;
+  max-width: 500px;
 }
 .subscribe{
   text-align: start;
