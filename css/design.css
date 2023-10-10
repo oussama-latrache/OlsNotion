@@ -482,6 +482,10 @@
   padding-bottom:150px;
 }
 
+.contact .main-title{
+  color: black;
+}
+
 .contact .container p{
   margin: auto;
   font-weight: bold;
@@ -614,6 +618,35 @@
 .up svg:hover{
   color:#f44f26;
 }
+
+
+.mouse_scroll {
+    display: block;
+    margin: 0 auto;
+    width: 24px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+
+.m_scroll_arrows {
+    display: block;
+    width: 5px;
+    height: 5px;
+    -ms-transform: rotate(45deg);
+    /* IE 9 */
+    -webkit-transform: rotate(45deg);
+    /* Chrome, Safari, Opera */
+    transform: rotate(45deg);
+
+    border-right: 2px solid #6c1cdd;
+    border-bottom: 2px solid #2759ce;
+    margin: 0 0 3px 4px;
+
+    width: 16px;
+    height: 16px;
+}
+
 
 .circle {
   height: 24px;
