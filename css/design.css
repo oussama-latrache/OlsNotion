@@ -367,6 +367,8 @@
 .team .container .box:hover svg{
   fill: white;
 }
+
+
 .collection{
   margin-top: 150px;
 }
@@ -385,6 +387,12 @@
   .collection .list ul li {
     font-size: 22px;
     margin-left: 0px;
+  }
+}
+
+@media (max-width: 720px) {
+  .collection .d-flex{
+    flex-direction: column;
   }
 }
 
